@@ -1,0 +1,59 @@
+{
+  "name": "chatwithnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoanLoi/ChatWithNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoanLoi/ChatWithNode/issues"
+  },
+  "homepage": "https://github.com/DoanLoi/ChatWithNode#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.3",
+    "co": "^4.6.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-ejs-extend": "0.0.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^7.0.1",
+    "i": "^0.3.6",
+    "lodash": "^4.17.11",
+    "lrc-parser": "^1.0.1",
+    "moment": "^2.24.0",
+    "mongoose": "^4.13.9",
+    "multer": "^1.4.1",
+    "ngrok": "^3.2.7",
+    "nodemailer": "^4.4.2",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "request-utils": "^1.1.0",
+    "socket.io": "^2.2.0",
+    "utils": "^0.3.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "pem": "^1.13.2"
+  }
+}
